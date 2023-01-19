@@ -1,0 +1,114 @@
+.main-bottom{
+    width:100%;
+    border-radius:13px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing:border-box;
+    padding:20px;
+   margin-top:30px;
+  
+} 
+ 
+.main-bottom>div:nth-child(1)>div{
+   display:flex;
+   align-items:center;
+   height:80px;
+   box-sizing:border-box;
+}
+
+.main-bottom>div:nth-child(1)>div>img{
+    width:80px;
+    height:80px;
+    margin-left:25px;
+ }
+ .main-bottom>div:nth-child(1)>div>h1{
+    font-size:62px;
+ }
+ .main-bottom>div:nth-child(1)>div>span{
+    font-weight: bold;
+    padding-left:5px;
+    font-size:62px;
+ }
+ .main-bottom>div:nth-child(2){
+
+   margin-top:20px;
+   margin-bottom:10px;
+}
+ .main-bottom>div:nth-child(3){
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:23px;
+ }
+ .main-bottom>div:nth-child(3)>div{
+    padding:5px 45px 5px 15px;
+     background-color: rgb(245,250,255);
+
+ }
+ .main-bottom>div:nth-child(3)>div>p{
+   margin-top:0px;
+   margin-bottom:0px;
+ }
+ 
+ .main-bottom>div:nth-child(3)>div:nth-child(1)>p:nth-child(1){
+   font-weight: bold;
+  }
+  
+  .main-bottom>div:nth-child(3)>div:nth-child(2)>p:nth-child(1){
+    font-weight: bold;
+   }
+   .main-bottom>div:nth-child(3)>div:nth-child(2)>p:nth-child(2){
+    font-weight: bold;
+   }
+   .main-bottom>div:nth-child(3)>div:nth-child(1)>p:nth-child(2){
+    font-weight: bold;
+   }
+
+   .bottom-graph{
+    margin-top:20px;
+    width:100%;
+  
+    
+   }
+   .rise{
+      margin-top:30px;
+      display:flex;
+      justify-content: space-between;
+      height:40px;
+   }
+   .rise>div:nth-child(1)>p:nth-child(1){
+     font-weight:bold;
+     margin-bottom:0px;
+   }
+   .rise>div:nth-child(1)>p:nth-child(2){
+     margin-top:3px;
+     font-family: sans-serif;
+     color:gray;
+     font-weight:600;
+   }
+
+   .rise>div:nth-child(2)>p:nth-child(1){
+      font-weight:bold;
+      margin-bottom:0px;
+    }
+    .rise>div:nth-child(2)>p:nth-child(2){
+      margin-top:3px;
+      font-family: sans-serif;
+      color:gray;
+      font-weight:600;
+    }
+
+    @media all and (max-width:1024px) and (min-width:769px){
+   }
+   
+   
+   @media all and (max-width:768px) and (min-width:481px){
+   }
+   
+   @media all and (max-width:480px) and (min-width:279px){
+   }
+   
+    
+   
+
+ 
+ 

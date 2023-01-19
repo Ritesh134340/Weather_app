@@ -1,0 +1,28 @@
+.lin-ch{
+height:400px;
+width:800px;
+margin:auto;
+margin-bottom:40px;
+
+}
+
+@media all and (max-width:1024px) and (min-width:769px){
+    .lin-ch{
+        width:100%;
+    }
+}
+
+
+@media all and (max-width:768px) and (min-width:481px){
+    .lin-ch{
+        width:100%;
+    }
+}
+
+@media all and (max-width:480px) and (min-width:279px){
+    .lin-ch{
+        width:100%;
+        height:auto;
+    
+    }
+}

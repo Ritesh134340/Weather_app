@@ -1,0 +1,36 @@
+.App {
+
+  width:75%;
+ 
+  box-sizing: border-box;
+  padding:8px;
+
+  margin:auto;
+}
+
+@media all and (max-width:1024px) and (min-width:769px){
+  .App{
+      width:90%;
+      padding-bottom:30px;
+  }
+}
+
+
+@media all and (max-width:768px) and (min-width:481px){
+  .App{
+      width:90%;
+      padding-bottom:30px;
+  }
+}
+
+@media all and (max-width:480px) and (min-width:279px){
+  .App{
+      width:97%;
+      padding-bottom:30px;
+  }
+}
+
+
+
+
+
